@@ -1,0 +1,10 @@
+{"BEGIN": "Transaction started.", "timestamp": "2024-07-07T01:30:32.286598900"}
+{"EXECUTE": "Operation added to transaction: CREATE TABLE TESTTABLE1 (ID INT, NAME VARCHAR(50))", "timestamp": "2024-07-07T01:30:32.286598900"}
+{"EXECUTE": "Operation added to transaction: INSERT INTO TESTTABLE1 (ID, NAME) VALUES (1, 'JOHN')", "timestamp": "2024-07-07T01:30:32.286598900"}
+{"EXECUTE": "Operation added to transaction: INSERT INTO TESTTABLE1 (ID, NAME) VALUES (2, 'JANE')", "timestamp": "2024-07-07T01:30:32.302191"}
+{"COMMIT": "Transaction committed.", "timestamp": "2024-07-07T01:30:32.318268300"}
+{"BEGIN": "Transaction started.", "timestamp": "2024-07-07T01:47:09.571967700"}
+{"EXECUTE": "Operation added to transaction: CREATE TABLE TESTTABLE2 (ID INT, NAME VARCHAR(50))", "timestamp": "2024-07-07T01:47:09.571967700"}
+{"EXECUTE": "Operation added to transaction: INSERT INTO TESTTABLE2 (ID, NAME) VALUES (1, 'JOHN')", "timestamp": "2024-07-07T01:47:09.571967700"}
+{"EXECUTE": "Operation added to transaction: INSERT INTO TESTTABLE2 (ID, NAME) VALUES (2, 'JANE')", "timestamp": "2024-07-07T01:47:09.571967700"}
+{"COMMIT": "Transaction committed.", "timestamp": "2024-07-07T01:47:09.606657400"}

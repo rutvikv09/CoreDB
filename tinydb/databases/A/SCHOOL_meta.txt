@@ -1,0 +1,4 @@
+Table: SCHOOL
+Structure: ID INT(PK),NAME STRING,AGE INT
+Primary Key: ID
+Relationship: From SCHOOL(NAME) to USERS(USERID)

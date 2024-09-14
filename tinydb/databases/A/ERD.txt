@@ -1,0 +1,17 @@
+Entity-Relationship Diagram for database: A
+
+Table: PEOPLE
+Columns: ID, NAME, AGE
+Primary Keys: ID
+Relationship: PEOPLE (ID) -> SCHOOL (ID) - Cardinality: 1-to-1
+
+Table: SCHOOL
+Columns: ID, NAME, AGE
+Primary Keys: ID
+Relationship: SCHOOL (NAME) -> USERS (USERID) - Cardinality: many-to-1
+
+Table: USERS
+Columns: USERID, USERNAME, EMAIL, DATEOFBIRTH
+Primary Keys: USERID
+No relationships found for this table.
+

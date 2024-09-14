@@ -1,0 +1,4 @@
+Table: PEOPLE
+Structure: ID INT(PK),NAME STRING,AGE INT
+Primary Key: ID
+Relationship: From PEOPLE(ID) to SCHOOL(ID)
